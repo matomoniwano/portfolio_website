@@ -1,0 +1,160 @@
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a{
+    text-decoration: none; 
+    color: black;
+}
+
+
+
+
+a.matomo_niwano{
+    color: rgb(105, 27, 161);
+    size: 3000ex;
+    font-family: 'Open Sans', sans-serif;
+
+}
+a.matomo_niwano:hover{
+    text-decoration: none;
+}
+img{
+    width: 30%;
+}
+
+img.prof{
+    width: 70%;
+    margin-top: 0%;
+
+}
+
+
+.custom-navbar {
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
+  }
+
+
+.navbar-toggler-icon{
+    background-color: white !important;
+}
+
+
+/* Default styles for links */
+.navbar-nav a {
+    float: left;
+    align-items: left;
+}
+
+/* Media query for larger screens */
+@media only screen and (min-width: 768px) {
+    .navbar-nav a {
+
+        float: left;
+    }
+
+
+}
+
+
+
+.nav-link{
+    font-weight: bold;
+    color: black;
+}
+
+#Home{
+    background-color:rgb(237, 203, 253);
+    min-height: 100vh;
+    flex-direction: row;
+    width: 100%;
+    display: flex;
+}
+
+
+.home_text {
+    text-align: center;
+    margin-left: 0%;
+    margin-right: 20%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+@media only screen and (max-width: 768px) {
+
+    img.prof{
+        width: 30%;
+    }
+
+    .home_text {
+        text-align: center;
+        margin-left: 0;
+        justify-content:center;
+        margin-right:0;
+        margin-top: 0;
+        margin-bottom: 50%;
+    }
+}
+
+.profile_pic{
+    margin-left: 10%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+@media only screen and (max-width: 768px) {
+    #Home {
+        flex-direction: column;
+    }
+    .profile_pic {
+        margin-top: 50%;
+        margin-bottom: 20px; /* add space between the image and the text */
+        display: flex;
+        justify-content:center;
+        margin-left: 0;
+        
+    }
+}
+
+
+.hi_my_name{
+ font-size: 3vw;   
+}
+
+
+.matomo{
+    font-size:6vw;
+    font-weight: bold;
+    line-height: 90%;
+}
+
+.intro{
+    line-height: 150%;
+
+}
+
+
+
+#About{
+    background-color:rgb(203, 237, 253);
+    min-height: 100vh;
+}
+#Skills{
+    background-color: rgb(203, 253, 241);
+    min-height: 100vh;
+}
+
+#Projects{
+    background-color:rgb(237, 203, 253);
+    min-height: 100vh;
+}
+
+#Contacts{
+    background-color: rgb(203, 237, 253);
+    min-height: 100vh;
+
+
+
+}
+
