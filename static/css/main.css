@@ -6,10 +6,6 @@ a{
     text-decoration: none; 
     color: black;
 }
-
-
-
-
 a.matomo_niwano{
     color: rgb(105, 27, 161);
     size: 3000ex;
@@ -19,14 +15,17 @@ a.matomo_niwano{
 a.matomo_niwano:hover{
     text-decoration: none;
 }
-img{
-    width: 30%;
+img.logo{
+    width: 20%;
+    margin-left: 5%;
 }
 
 img.prof{
-    width: 70%;
+    width: 30%;
+    height:30%;
     margin-top: 0%;
-
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 
@@ -35,29 +34,22 @@ img.prof{
     opacity: 0.9;
   }
 
-
 .navbar-toggler-icon{
     background-color: white !important;
 }
-
 
 /* Default styles for links */
 .navbar-nav a {
     float: left;
     align-items: left;
 }
-
 /* Media query for larger screens */
 @media only screen and (min-width: 768px) {
     .navbar-nav a {
 
         float: left;
     }
-
-
 }
-
-
 
 .nav-link{
     font-weight: bold;
@@ -65,26 +57,37 @@ img.prof{
 }
 
 #Home{
-    background-color:rgb(237, 203, 253);
+    background-color:rgb(255, 255, 255);
     min-height: 100vh;
     flex-direction: row;
     width: 100%;
+    padding: 5rem;
     display: flex;
+    margin-top: 8%;
+    gap: 2rem;
+    
 }
 
-
-.home_text {
+.home_text { 
     text-align: center;
-    margin-left: 0%;
-    margin-right: 20%;
-    margin-top: 20%;
-    margin-bottom: 20%;
 }
+
+
+
 
 @media only screen and (max-width: 768px) {
 
+    #Home {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
     img.prof{
         width: 30%;
+        margin-top: 0%;
+        margin-bottom: 20px; /* add space between the image and the text */
+        display: flex;
+        justify-content:center;
     }
 
     .home_text {
@@ -97,25 +100,7 @@ img.prof{
     }
 }
 
-.profile_pic{
-    margin-left: 10%;
-    margin-top: 20%;
-    margin-bottom: 20%;
-}
 
-@media only screen and (max-width: 768px) {
-    #Home {
-        flex-direction: column;
-    }
-    .profile_pic {
-        margin-top: 50%;
-        margin-bottom: 20px; /* add space between the image and the text */
-        display: flex;
-        justify-content:center;
-        margin-left: 0;
-        
-    }
-}
 
 
 .hi_my_name{
@@ -127,6 +112,7 @@ img.prof{
     font-size:6vw;
     font-weight: bold;
     line-height: 90%;
+    color: rgb(40, 104, 213);
 }
 
 .intro{
@@ -137,7 +123,7 @@ img.prof{
 
 
 #About{
-    background-color:rgb(203, 237, 253);
+    background-color:rgb(0, 0, 0);
     min-height: 100vh;
 }
 #Skills{
